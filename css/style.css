@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ============ comon css ============ */
+
+.container {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.common_btn {
+  background: tomato;
+  border-radius: 0.2rem;
+  padding-right: 1.6rem;
+  padding-left: 1.6rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: wheat;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.d_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ============ Header Areiai Start ============ */
+
+#mainHeader {
+  min-width: 100%;
+  height: 100vh;
+  background: url(../img/top-banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header_content {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  gap: 2rem;
+}
+
+.header_content_text {
+  max-width: 50%;
+}
+
+.header_content_text h1{
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
+.header_content_text h4{
+margin-bottom: 1rem;
+}
+
+.header_content_text p{
+    margin-bottom: 1.5rem;
+}
+
+.header_content_img {
+  max-width: 50%;
+}
+
+/* ============ Header Areia End ============ */
+
+/* ============ About Me Areia Start ============ */
+#aboutSection {
+  max-width: 100%;
+  height: 100vh;
+  background: url(../img/dream-bg.png) no-repeat;
+  background-position: right;
+background-size: auto;
+}
+
+.about_content{
+  gap: 2rem;
+}
+
+.about_content_img{
+  max-width: 50%;
+}
+
+.about_content_text{
+  max-width: 50%;
+}
+
+.about_content_text h1{
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.about_content_text h4{
+  margin-bottom: 1rem;
+}
+
+.about_content_text p{
+  margin-bottom: 2rem;
+}
+
+/* ============ About Me Areia End ============ */
+
+/* ============ Experiance Areia Start ============ */
+#experianceSection {
+max-width: 100%;
+height: auto;
+background: url(../img/exp-bg.png) no-repeat;
+background-position: left;
+background-blend-mode: lighten;
+padding: 1.5rem;
+}
+
+.exp_title h1{
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.expreance_contant{
+gap: 2rem;
+}
+
+.expreance_list{
+  max-width: 50%;
+}
+
+.expreance_list {
+  padding: 1.5rem;
+  width: 100%;
+  height: 20rem;
+  background: whitesmoke;
+  border-left: 0.7rem solid tomato;
+  box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.5) ;
+
+}
+
+.expreance_list:nth-child(2){
+  border-color: rgb(8, 62, 211);
+}
+
+/* ============ Experiiance Areia End ============ */
+
+/* ============ Footer Areia Start ============ */
+footer {
+width: 100%;
+padding-top: 2rem;
+padding-left: 2rem;
+padding-right: 2rem;
+padding-bottom: 0.5rem;
+text-align: center;
+}
+/* ============ Footer Areia End ============ */
